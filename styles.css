@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%)
+  }
+
+body{
+    position: relative;
+    width:375px;
+    height:667px;
+    background-color: var(--mainBG);
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.main-section{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    height: 543px;
+    width: 327px;
+    top:62px;
+    left:24px;
+}
+
+.equilibrium{
+    position: absolute;
+    border-radius: 8px;
+    width:278px;
+    left: 7.34%;
+    right: 7.65%;
+    top: 4.42%;
+    bottom: 44.38%
+}
+.description{
+    position: absolute;
+    height: 52px;
+    left: 7.34%;
+    right: 7.65%;
+    top: calc(50% - 52px/2 + 120.5px);  
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    width:278px;
+}
+
+h1{
+    position: absolute;
+    left: 7.34%;
+    right: 7.65%;
+    top: 60.04%;
+    bottom: 34.81%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.price-days{
+    position: absolute;
+    width: 278px;
+    height: 19px;
+    left: 24px;
+    top: 434px;
+}
+
+.price{
+    position: absolute;
+    height: 19px;
+    left: 17.48px;
+    top: calc(50% - 19px/2);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #00FFF8;
+}
+
+.clock{
+    position: absolute;
+    height: 19px;
+    left: 209px;
+    top: calc(50% - 19px/2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #8BACD9;
+}
+.clock-icon{
+    position:absolute;
+    left:186.64px;
+}
+
+.line-break{
+    position: absolute;
+    left: 7.34%;
+    right: 7.65%;
+    top: 86.37%;
+    bottom: 13.44%;
+    background: var(--line);
+}
+
+.author-img{
+    position: absolute;
+    width:33px;
+    left:24px;
+    top:486px;
+    border: 1.2px solid #FFFFFF;
+    border-radius: 50%;
+    
+}
+
+.author-name{
+    position:absolute;
+    left:73px;
+    top:493px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #8BACD9;
+}
+
+span{
+    color: #FFFFFF;
+    padding-left:4px;
+}
