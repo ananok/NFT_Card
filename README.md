@@ -4,7 +4,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://ananok.github.io/NFT_Card/)
+- Live Site URL: (https://ananok.github.io/NFT_Card/)
 
 ## Author
 
